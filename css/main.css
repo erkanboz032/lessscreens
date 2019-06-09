@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&amp;display=swap');
+@import url('https://fonts.googleapis.com/css?family=Questrial&amp;display=swap');
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+	color: #fff;
+	background:url(../media/bg.gif);
+	background-size: cover;
+}
+
+#particles  {
+    width: 100%;
+    height: 100vh;
+    z-index: 999;
+    position: absolute;
+}
+
+.center {
+    width: 100%;
+    height: 100vh;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.center h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: lighter;
+    font-size: 42px;
+    margin: 0px;
+}
+
+.center p {
+    font-family: 'Questrial', sans-serif;
+    font-size: 22px;
+}
+
+.inline {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+}
+
+hr {
+    border: 2px solid white;
+}
+
